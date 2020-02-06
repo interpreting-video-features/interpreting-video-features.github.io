@@ -1,0 +1,103 @@
+I"}<h2 id="interpreting-video-features-a-comparison-of-3d-convolutional-networks-and-convolutional-lstm-networks">Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks</h2>
+<p>A number of techniques for interpretability have been presented for deep learning in computer vision, typically with the goal of understanding what the networks have actually learned underneath a given classification decision. However, interpretability for deep video architectures is still in its infancy and we do not yet have a clear concept of how to decode spatiotemporal features. In this paper, we present a study comparing how 3D convolutional networks and convolutional LSTM networks learn features across temporally dependent frames. This is the first comparison of two video models that both convolve to learn spatial features but that have principally different methods of modeling time. Additionally, we extend the concept of meaningful perturbation introduced by <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Fong_Interpretable_Explanations_of_ICCV_2017_paper.pdf">Fong et al.</a> to the temporal dimension to search for the most meaningful part of a sequence for a classification decision.</p>
+
+<h2 id="results-samples-from-main-article">Results samples from main article</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Scores I3D</th>
+      <th>I3D</th>
+      <th>CLSTM</th>
+      <th>Scores CLSTM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Moving something and something away from each other</td>
+      <td>OS: 0.994<br /> FS: 0.083 <br />RS: 0.856</td>
+      <td><img src="../gifs/resultclips/36/43627/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/36/43627/clstm/clstm.gif" alt="img" /></td>
+      <td>0.312<br /> 0.186 <br />0.125</td>
+    </tr>
+    <tr>
+      <td>Moving something and something closer to each other</td>
+      <td>OS: 0.547<br /> FS: 0.028 <br />RS: 0.053 <br /> P: 38</td>
+      <td><img src="../gifs/resultclips/37/180193/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/37/180193/clstm/clstm.gif" alt="img" /></td>
+      <td>0.257<br /> 0.079 <br />0.122<br /> P: 135</td>
+    </tr>
+    <tr>
+      <td>Moving something and something so they pass each other</td>
+      <td>OS: 0.999<br /> FS: 0.002 <br />RS: 0.414</td>
+      <td><img src="../gifs/resultclips/39/28170/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/39/28170/clstm/clstm.gif" alt="img" /></td>
+      <td>0.788<br /> 0.392 <br />0.537</td>
+    </tr>
+    <tr>
+      <td>Moving something up</td>
+      <td>OS: 0.804<br /> FS: 0.016 <br />RS: 0.667</td>
+      <td><img src="../gifs/resultclips/45/125857/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/45/125857/clstm/clstm.gif" alt="img" /></td>
+      <td>0.546<br /> 0.121 <br />0.764</td>
+    </tr>
+    <tr>
+      <td>Moving something up</td>
+      <td>OS: 0.685<br /> FS: 0.003 <br />RS: 0.048 <br /> CS: 0.001 <br />P: 146</td>
+      <td><img src="../gifs/resultclips/45/81536/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/45/81536/clstm/clstm.gif" alt="img" /></td>
+      <td>0.221<br /> 0.182 <br />0.350 <br /> CS: 0.005 <br /> P: 100</td>
+    </tr>
+    <tr>
+      <td>Pretending to take something from somewhere</td>
+      <td>OS: 0.284<br /> FS: 0.003 <br />RS: 0.006</td>
+      <td><img src="../gifs/resultclips/81/46708/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/81/46708/clstm/clstm.gif" alt="img" /></td>
+      <td>0.600<br /> 0.167 <br />0.088 <br /> CS: 0.004 <br /> P: 27</td>
+    </tr>
+    <tr>
+      <td>Turning the camera downwards while filming something</td>
+      <td>OS: 1.000<br /> FS: 0.001 <br />RS: 0.011</td>
+      <td><img src="../gifs/resultclips/165/197549/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/165/197549/clstm/clstm.gif" alt="img" /></td>
+      <td>0.158<br /> 0.063 <br />0.093</td>
+    </tr>
+    <tr>
+      <td>Turning the camera upwards while filming something</td>
+      <td>OS: 0.990<br /> FS: 0.001 <br />RS: 0.000</td>
+      <td><img src="../gifs/resultclips/168/215115/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/resultclips/168/215115/clstm/clstm.gif" alt="img" /></td>
+      <td>0.806<br /> 0.177 <br />0.181</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="further-examples-of-spatio-temporal-features">Further Examples of Spatio-temporal Features:</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mask Losses I3D</th>
+      <th>I3D</th>
+      <th>CLSTM</th>
+      <th>Mask Losses CLSTM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.000<br /> 0.000 <br />0.000</td>
+      <td><img src="../gifs/appendixclips/45/85790/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/appendixclips/45/85790/clstm/clstm.gif" alt="img" /></td>
+      <td>0.000<br /> 0.000 <br />0.000</td>
+    </tr>
+    <tr>
+      <td>0.000<br /> 0.000 <br />0.000</td>
+      <td><img src="../gifs/appendixclips/45/96257/i3d/i3d.gif" alt="img" /></td>
+      <td><img src="../gifs/appendixclips/45/96257/clstm/clstm.gif" alt="img" /></td>
+      <td>0.000<br /> 0.000 <br />0.000</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET
