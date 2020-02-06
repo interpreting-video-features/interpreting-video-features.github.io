@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-
-    
-    <meta charset="UTF-8">
-
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Interpreting Video Features of Deep Net Classifiers | Supplementary material for the paper Interpreting video features</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Interpreting Video Features of Deep Net Classifiers" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Supplementary material for the paper Interpreting video features" />
-<meta property="og:description" content="Supplementary material for the paper Interpreting video features" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Interpreting Video Features of Deep Net Classifiers" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/","name":"Interpreting Video Features of Deep Net Classifiers","headline":"Interpreting Video Features of Deep Net Classifiers","description":"Supplementary material for the paper Interpreting video features","@type":"WebSite","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-      <h1 class="project-name">Interpreting Video Features of Deep Net Classifiers</h1>
-      <h2 class="project-tagline">Supplementary material for the paper Interpreting video features</h2>
-      
-      
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      <h2 id="interpreting-video-features-a-comparison-of-3d-convolutional-networks-and-convolutional-lstm-networks">Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks</h2>
+I"‡=<h2 id="interpreting-video-features-a-comparison-of-3d-convolutional-networks-and-convolutional-lstm-networks">Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks</h2>
 
 <p>This website contains animated figures both from the main article and the supplementary material of our <a href="https://arxiv.org/abs/2002.00367">paper</a>:</p>
 
@@ -151,11 +114,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/165/12462/clstm/clstm.gif" alt="img" /></td>
       <td>0.373<br /> 0.547 <br />0.224</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Turning the camera downwards while filming something</td>
       <td>OS: 0.999<br /> FS: 0.000<br /> RS: 0.000<br /></td>
@@ -163,11 +121,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/165/213899/clstm/clstm.gif" alt="img" /></td>
       <td>0.921<br /> 0.238 <br />0.460</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Turning the camera left while filming something</td>
       <td>OS: 0.997<br /> FS: 0.012 <br />RS: 0.014</td>
@@ -175,11 +128,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/166/147868/clstm/clstm.gif" alt="img" /></td>
       <td>0.988<br /> 0.183 <br />0.105</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Turning the camera left while filming something</td>
       <td>OS: 0.999<br /> FS: 0.001 <br />RS: 0.451</td>
@@ -187,11 +135,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/166/183031/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.985<br /> FS: 0.229 <br />RS: 0.094</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Turning the camera right while filming something <br /><br /> <em>Predicted:</em> <br /> 157: Tilting something with something on it until it falls off</td>
       <td>OS: .940<br /> FS: 0.106 <br /> RS: 0.017</td>
@@ -199,11 +142,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/167/72679/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.192<br /> FS: 0.261 <br />RS: 0.140 <br /> CS: 0.103 <br /> P: 157</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Turning the camera right while filming something</td>
       <td>OS: .947<br /> FS: 0.005 <br /> RS: 0.188</td>
@@ -211,11 +149,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/167/130060/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.708<br /> FS: 0.093 <br />RS: 0.119</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Turning the camera upwards while filming something</td>
       <td>OS: 0.999 <br /> FS: 0.001 <br /> RS: 0.002</td>
@@ -223,11 +156,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/168/191690/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.687<br /> FS: 0.205 <br /> RS: 0.149</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Turning the camera upwards while filming something</td>
       <td>OS: 0.997<br /> FS: 0.002 <br /> RS: 0.064</td>
@@ -235,11 +163,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/168/40456/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.689<br /> FS: 0.108 <br />RS: 0.129</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Moving something and something away from each other <br /><br /> <em>Predicted:</em> <br /> 121: Removing something, revealing something behind</td>
       <td>OS: 0.917<br /> FS: 0.058 <br />RS: 0.071</td>
@@ -247,11 +170,6 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td><img src="../gifs/appendixclips/36/192470/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.297<br /> FS: 0.155 <br />RS: 0.294 <br /> CS: 0.085 <br /> P:121</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
     <tr>
       <td>Moving something and something away from each other <br /><br /> <em>Predicted:</em> <br /> 130: Showing that something is inside something</td>
       <td>OS: 0.991 <br /> FS: 0.022 <br />RS: 0.956</td>
@@ -260,7 +178,7 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td>OS: 0.259<br /> FS: 0.081 <br />RS: 0.146 <br /> CS: 0.008 <br /> P: 130</td>
     </tr>
     <tr>
-      <td>Moving something and something closer to each other <br /><br /> <em>Predicted:</em> <br /> 173: Wiping something off of something <br /> 100: Pushing something so that it slightly moves</td>
+      <td>Moving something and something closer to each other</td>
       <td>OS: 0.273<br /> FS: 0.004 <br />RS: 0.245 <br /> CS: 0.001 <br /> P:173</td>
       <td><img src="../gifs/appendixclips/37/134107/i3d/i3d.gif" alt="img" /></td>
       <td><img src="../gifs/appendixclips/37/134107/clstm/clstm.gif" alt="img" /></td>
@@ -281,7 +199,7 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td>OS: 0.620<br /> FS: 0.145 <br />RS: 0.129</td>
     </tr>
     <tr>
-      <td>Moving something and something so they collide with each other <br /><br /> <em>Predicted:</em> <br /> 37: Moving something and something closer to each other</td>
+      <td>Moving something and something so they collide with each other</td>
       <td>OS: 0.810<br /> FS: 0.055 <br />RS: 0.419</td>
       <td><img src="../gifs/appendixclips/38/67970/i3d/i3d.gif" alt="img" /></td>
       <td><img src="../gifs/appendixclips/38/67970/clstm/clstm.gif" alt="img" /></td>
@@ -295,21 +213,21 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
       <td>OS: 0.737<br /> FS: 0.490 <br /> RS: 0.140</td>
     </tr>
     <tr>
-      <td>Moving something and something so they so they pass each other  <br /><br /> <em>Predicted:</em> <br /> 37: Moving something and something closer to each other</td>
+      <td>Moving something and something so they so they pass each other</td>
       <td>OS: 0.694<br /> FS: 0.010 <br /> RS: 0.003 <br /> CS: 0.273 <br /> P: 37</td>
       <td><img src="../gifs/appendixclips/39/91016/i3d/i3d.gif" alt="img" /></td>
       <td><img src="../gifs/appendixclips/39/91016/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.813<br /> FS: 0.227 <br />RS: 0.830 <br /> CS: 0.142 <br /> P: 37</td>
     </tr>
     <tr>
-      <td>Burying something in something <br /><br /> <em>Predicted:</em> <br /> 145: Taking one of many similar things on the table <br /> 157: Tilting something with something on it until it falls off</td>
+      <td>Burying something in something</td>
       <td>OS: 0.619<br /> FS: 0.010 <br /> RS: 0.216 <br /> CS: 0.020 <br /> P: 145</td>
       <td><img src="../gifs/appendixclips/4/30133/i3d/i3d.gif" alt="img" /></td>
       <td><img src="../gifs/appendixclips/4/30133/clstm/clstm.gif" alt="img" /></td>
       <td>OS: 0.013<br /> FS: 0.079 <br /> RS: 0.262<br /> CS: 0.001 <br /> P: 157</td>
     </tr>
     <tr>
-      <td>Burying something in something <br /><br /> <em>Predicted:</em> <br /> 106: Putting something into something <br /> 5: Closing something</td>
+      <td>Burying something in something</td>
       <td>OS: 0.177<br /> FS: 0.007 <br /> RS: 0.130 <br /> CS: 0.027 <br /> P: 106</td>
       <td><img src="../gifs/appendixclips/4/58874/i3d/i3d.gif" alt="img" /></td>
       <td><img src="../gifs/appendixclips/4/58874/clstm/clstm.gif" alt="img" /></td>
@@ -346,12 +264,4 @@ F1-score/C-LSTM F1 score): moving something and something so they collide with e
   </tbody>
 </table>
 
-
-
-      <footer class="site-footer">
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </main>
-  </body>
-</html>
+:ET
