@@ -3,19 +3,25 @@ layout: default
 ---
 
 ## Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks
+Joonatan Mänttäri\*, Sofia Broomé\*, John Folkesson, Hedvig Kjellström. \*Joint authorship
+
+*ACCV 2020, 15th Asian Conference on Computer Vision, to appear.*
 
 This website contains animated figures both from the main article and the supplementary material of our [paper](https://arxiv.org/abs/2002.00367):
 
-`@InProceedings{ManttariBroome_2020_Interpreting_Video_Features,
-    title={Interpreting video features: a comparison of 3D convolutional networks and convolutional LSTM networks},
-    author={Joonatan M\"antt\"ari and Sofia Broom\'e and John Folkesson and Hedvig Kjellstr\"om},
+`@InProceedings{ManttariBroome_2020_Interpreting_Video_Features,                                                                                                               
+    title={Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks},
+    author={Joonatan M\"antt\"ari* and Sofia Broom\'e* and John Folkesson and Hedvig Kjellstr\"om},
     year={2020},
-    eprint={2002.00367},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+    booktitle={Computer Vision - ACCV 2020, 15th Asian Conference on Computer Vision, to appear. (*Joint first authors)},
+    month = {December}
 }`
 
+
 If you find the article useful for your research, please cite it.
+
+<iframe width="420" height="315" src="https://youtu.be/UScJpd4_B_0" frameborder="0" allowfullscreen></iframe>
+
 
 **Abstract:** A number of techniques for interpretability have been presented for deep learning in computer vision, typically with the goal of understanding what the networks have actually learned underneath a given classification decision. However, interpretability for deep video architectures is still in its infancy and we do not yet have a clear concept of how to decode spatiotemporal features. In this paper, we present a study comparing how 3D convolutional networks and convolutional LSTM networks learn features across temporally dependent frames. This is the first comparison of two video models that both convolve to learn spatial features but that have principally different methods of modeling time. Additionally, we extend the concept of meaningful perturbation introduced by <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Fong_Interpretable_Explanations_of_ICCV_2017_paper.pdf">Fong et al.</a> to the temporal dimension to search for the most meaningful part of a sequence for a classification decision.
 
