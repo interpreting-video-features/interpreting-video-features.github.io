@@ -20,7 +20,7 @@ This website contains animated figures both from the main article and the supple
 
 If you find the article useful for your research, please cite it.
 
-<iframe width="420" height="315" src="https://youtu.be/UScJpd4_B_0" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/UScJpd4_B_0" frameborder="0" allowfullscreen></iframe>
 
 
 **Abstract:** A number of techniques for interpretability have been presented for deep learning in computer vision, typically with the goal of understanding what the networks have actually learned underneath a given classification decision. However, interpretability for deep video architectures is still in its infancy and we do not yet have a clear concept of how to decode spatiotemporal features. In this paper, we present a study comparing how 3D convolutional networks and convolutional LSTM networks learn features across temporally dependent frames. This is the first comparison of two video models that both convolve to learn spatial features but that have principally different methods of modeling time. Additionally, we extend the concept of meaningful perturbation introduced by <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Fong_Interpretable_Explanations_of_ICCV_2017_paper.pdf">Fong et al.</a> to the temporal dimension to search for the most meaningful part of a sequence for a classification decision.
