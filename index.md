@@ -7,7 +7,7 @@ Joonatan Mänttäri\*, Sofia Broomé\*, John Folkesson, Hedvig Kjellström. \*Jo
 
 *ACCV 2020, 15th Asian Conference on Computer Vision, to appear.*
 
-This website contains animated figures both from the main article and the supplementary material of our [paper](https://arxiv.org/abs/2002.00367):
+This website contains animated figures both from the main article and the supplementary material of our [paper](https://arxiv.org/abs/2002.00367). The hyperparameters used in the work can be found at the bottom of the page.
 
 `@InProceedings{ManttariBroome_2020_Interpreting_Video_Features,                                                                                                               
     title={Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks},
