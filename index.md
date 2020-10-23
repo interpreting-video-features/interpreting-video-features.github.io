@@ -20,7 +20,7 @@ Joonatan Mänttäri\*, Sofia Broomé\*, John Folkesson, Hedvig Kjellström. \*Jo
 }`
 
 
-If you find the article useful for your research, please cite it.
+The hyperparameters used in the work can be found at the bottom of the page. If you find the article useful for your research, please cite it.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/UScJpd4_B_0" frameborder="0" allowfullscreen></iframe>
 
@@ -84,4 +84,21 @@ Moving something up  <br/><br/> *Predicted:* <br/> 27: Lifting something up comp
 Moving something up <br/><br/> *Predicted:* <br/> 100: Pushing something so that it slightly moves| OS: 0.755<br /> FS: 0.012 <br /> RS: 0.032 | ![img](../gifs/appendixclips/45/96257/i3d/i3d.gif) | ![img](../gifs/appendixclips/45/96257/clstm/clstm.gif) | OS: 0.230<br /> FS: 0.146 <br />RS: 0.200<br/> CS: 0.003 <br/> P: 100
 Pretending to take something from somewhere <br/><br/> *Predicted:* <br/> 160: Touching (without moving) part of something | OS: 0.810<br /> FS: 0.019 <br /> RS: 0.682 <br/> CS: 0.000 <br/> P: 160| ![img](../gifs/appendixclips/81/18593/i3d/i3d.gif) | ![img](../gifs/appendixclips/81/18593/clstm/clstm.gif) | OS: 0.179<br /> FS: 0.073 <br /> RS: 0.162<br/> CS: 0.004 <br/> P: 160
 Pretending to take something from somewhere <br/><br/> *Predicted:* <br/> 145: Stuffing something into something <br/> 160: Touching (without moving) part of something | OS: 0.325<br /> FS: 0.012 <br /> RS: 0.126<br/> CS: 0.047 <br/> P: 145 | ![img](../gifs/appendixclips/81/7435/i3d/i3d.gif) | ![img](../gifs/appendixclips/81/7435/clstm/clstm.gif) | OS: 0.418<br /> FS: 0.062 <br /> RS: 0.266<br /> CS: 0.011 <br /> P: 160
+
+## Hyperparameters for model training
+
+Model (dataset) | Dropout Rate | Weight Decay | Optimizer | Epochs | Momentum 
+ ---- | ---- | ---- | ---- | ---- | ---- 
+I3D (smth-smth) | 0.5 | 0 | ADAM | 13 | -
+I3D (KTH) | 0.7 | 5E-5 | ADAM | 30 | - 
+C-LSTM (smth-smth) | 0 | 0 | SGD | 105 | 0.2 
+C-LSTM (KTH) | 0.5 | 1E-4 | SGD | 21 | 0.2 
+
+## Hyperparameters for temporal mask inference
+
+Dataset | Lambda1 | Lambda2 | Beta | Optmizer | Iterations | Learning Rate 
+ ---- | ---- | ---- | ---- | ---- | ---- 
+Smth-Smth | 0.01 | 0.02 | 3 | ADAM | 300 | 0.001 
+KTH | 0.02 | 0.04 | 3 | ADAM | 300 | 0.001 
+
 
