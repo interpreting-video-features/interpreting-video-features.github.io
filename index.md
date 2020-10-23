@@ -2,12 +2,14 @@
 layout: default
 ---
 
+This website contains animated figures both from the main article and the supplementary material of our paper:
+
 ## Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks
-Joonatan Mänttäri\*, Sofia Broomé\*, John Folkesson, Hedvig Kjellström. \*Joint authorship
+Joonatan Mänttäri\*, Sofia Broomé\*, John Folkesson, Hedvig Kjellström. \*Joint first authorship
 
 *ACCV 2020, 15th Asian Conference on Computer Vision, to appear.*
 
-This website contains animated figures both from the main article and the supplementary material of our [paper](https://arxiv.org/abs/2002.00367):
+[Paper](https://arxiv.org/abs/2002.00367) and [code](https://github.com/interpreting-video-features/interpreting-video-features).
 
 `@InProceedings{ManttariBroome_2020_Interpreting_Video_Features,                                                                                                               
     title={Interpreting Video Features: a Comparison of 3D Convolutional Networks and Convolutional LSTM Networks},
